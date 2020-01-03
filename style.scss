@@ -1,0 +1,163 @@
+.acc-head{
+	width: 610px;	
+	font-size: 26px;
+	font-family: system-ui;
+	padding-top: 20px;
+	padding-left: 10px;
+	border-bottom:3px solid black;
+	font-weight: 800;
+	padding-bottom: 5px;
+	margin-top: 3px;
+	float: left;
+}
+.acc-body{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	border-radius: 5px;
+	width: 400px;
+	font-size: 18px;
+	font-style: italic;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	
+	
+}
+#accordeon{
+	padding-left: 20%;
+	padding-top: 200px;
+	&:first-child{
+		padding-top: 0px;
+	}
+
+}
+
+body{
+	// background-color:#C4AFFF;
+}
+.acc-btn{
+
+}
+.stat{
+	width: 175px;
+	height: 23px;
+	border: 1px solid black;
+	border-radius: 20px;
+	position: fixed;
+
+}
+.stata{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	transition:1s;
+}
+.stata-text{
+	padding-left: 42.5%;
+	position: absolute;
+	padding-top: 2px;
+	z-index: 9;
+}
+.lable{
+	margin-left: -20px;
+	width: 800px;
+	justify-content:center;
+	font-size: 40px;
+	font-family: system-ui;
+	padding-bottom: 20px;
+
+}
+.lable-counter{
+	font-size: 20px;
+	font-weight: 900;
+}
+.check{
+	width: 23px;
+	height: 23px;
+	float: left;
+
+}
+.stata-number{
+	padding-left: 30%;
+	padding-top:5px; 
+	font-size: 30px;
+	font-weight: 900;
+	transition:1s;
+	
+}
+.number{
+	color:green;
+}
+.all{
+	padding-left: 40%;
+	width: 600px;
+	height: 600px;
+	border: 1px solid black;
+}
+.q{
+	height: 3px;
+	width: 0px;
+	background-color: black;
+	border-radius: 20px;
+	margin-top: -20px;
+	transition:1s;
+	
+}
+span{
+	color:green;
+}
+.btn{
+	width: 250px;
+	height: 26px;
+	font-size: 25px;
+	padding-left: 10px;
+	margin-top:2px;
+	font-weight: 900;
+	border-radius: 20px;
+	border: 2px solid black;
+	&:hover{
+		background-color:#C7C7C7 ;
+	}
+	
+}
+.main{
+	display: flex;
+	justify-content:space-between;
+}
+.ac{
+	padding-left: 20%;
+}
+a{
+	 text-decoration:none;
+	 color:black;
+}
+.modul{
+	border: 3px solid black;
+	border-radius: 20px;
+	width: 300px;
+	padding-left:20px;
+	padding-top:5px;
+}
+.modul-label{
+	font-size: 20px;
+	font-weight: 900;
+
+}
+.capabilities{
+	display: flex;
+	justify-content:space-around;
+	padding-top: 150px;
+	&:first-child{
+		
+	}
+}
+.n{
+	width: 260px;
+	position: absolute;
+	margin-top: 100px;
+}
+.capabilities-main{
+	margin-top: -100px;
+}

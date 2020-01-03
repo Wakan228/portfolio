@@ -1,0 +1,247 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+}
+.acc-head {
+  width: 100%;
+  font-size: 1.7rem;
+  /*font-family: system-ui;*/
+  padding-top: 20px;
+  padding-left: 10px;
+  border-bottom: 1px solid #fff;
+  font-weight: 100;
+  padding-bottom: 5px;
+  margin-top: 3px;
+  letter-spacing: 0.1rem;
+  /*float: left; */
+  /*display: flex;*/
+  /*justify-content: flex-start;*/
+  font-family: "Noto Sans",sans-serif;
+}
+
+.acc-body {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  /*width: 400px;*/
+  font-size: 18px;
+  /*font-style: italic;*/
+  /*padding-left: 5px;*/
+  padding-top: 10px;
+  padding-bottom: 5px; 
+  font-family: "PT Sans",sans-serif;
+}
+
+#accordeon {
+ /* padding-left: 20%;
+  padding-top: 200px;*/ }
+  #accordeon:first-child {
+    padding-top: 0px; }
+
+.stat {
+  /*width: 175px;*/
+  width: 40%;
+  height: 23px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: block;
+  position: relative;
+  /*position: fixed;*/ }
+
+.stata {
+  /*position: relative;*/
+  width: 0%;
+  height: 100%;
+  border-radius: 20px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s; }
+
+.stata-text {
+  /*padding-left: 42.5%;*/
+  position: absolute;
+  margin: 0% 0% 0% 40%;
+  z-index: 9;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.lable {
+ /* margin-left: -20px;
+  width: 800px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: system-ui;
+  padding-bottom: 20px;*/
+  display: block;
+  margin: 40px auto 40px auto;
+  text-align: center;
+  font-size: 2rem; 
+  font-family: "Montserrat",sans-serif;
+  letter-spacing: 1px;
+}
+
+.lable-counter {
+  font-size: 20px;
+  font-weight: 100;
+  font-family: "Montserrat",sans-serif; 
+}
+
+.check {
+  width: 23px;
+  height: 23px;
+  margin: auto 10px; }
+
+.stata-number {
+  padding-left: 30%;
+  padding-top: 5px;
+  font-size: 30px;
+  font-weight: 900;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s; }
+
+.number {
+  color: green; }
+
+.all {
+  padding-left: 40%;
+  width: 600px;
+  height: 600px;
+  border: 1px solid black; }
+
+.q {
+  height: 3px;
+  width: 0px;
+  background-color: black;
+  border-radius: 20px;
+  margin-top: -20px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s; }
+
+span {
+  color: green; }
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  /*background-image: url(2.jpg);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ac {
+  /*padding-left: 20%;*/ }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.modul {
+  /*border: 3px solid black;*/
+  /*border-radius: 20px;*/
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 5px; }
+
+.modul:hover{
+  transition: 0.4s;
+  box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+}
+
+.modul-label {
+  font-size: 130%;
+  font-weight: 100; 
+/*font-family: "Old Standard TT",sans-serif;*/
+font-family: "Montserrat",sans-serif;
+
+}
+
+.capabilities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  height: 100%;
+  background: #00000040;
+  }
+.capabilities-main {
+  background-image: url(1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: inherit;
+  color: #fff;
+}
+.overlay{
+  background: rgba(0,0,0,0.7);
+  height: calc(100% - 100px);
+  display: flex;
+  justify-content: center;
+  padding: 50px 60px 50px 60px;
+  flex-direction: column;
+}
+.im{
+  width: 40px;
+    /*height: 40px;
+   margin: -30px 0px 0px -40px;*/
+}
+.linkk{
+  position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.modul-main{
+  font-family: "Poiret One",sans-serif;
+}
+ul{
+  padding: 0px 0px 0px 10px;
+}
+ul li{
+  display: block;
+  letter-spacing: 2px;
+  font-size: 120%;
+}
+.link2{
+  display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.link2 div{
+  color: #fff;
+    font-size: 1.2rem;
+    font-family: "Montserrat",sans-serif;
+    letter-spacing: 1px;
+    margin: 200% 0%;
+    border: 1px solid;
+    padding: 10px;
+}
+.link2 div:hover{
+      color: #000;
+    background: #fff;
+    transition: 0.5s;
+}
+.link2 div:not(:hover){
+      color: #fff;
+    background: transparent;
+    transition: 0.5s;
+}
+/*# sourceMappingURL=style.css.map */
